@@ -9,6 +9,7 @@ body{
 p{
     color: rgb(155, 242, 219);
 }
+
 .nav-link{
     color: rgb(155, 242, 219);
 }
@@ -19,15 +20,18 @@ p{
 
 .navbar-brand img{
 width: 40px;
+	
 }
 
-.navbar-toggler{
+.navbar-toggler {
 background-color: rgb(195, 195, 195);
 }
 
 .sidebar{
     color:rgb(155, 242, 219);
     background: linear-gradient(270deg, #1904b4 0%, #151515 100%);
+	
+
 }
 
 .card{
@@ -35,7 +39,7 @@ background-color: rgb(195, 195, 195);
     color:rgb(155, 242, 219);
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color:rgb(155, 242, 219);
 }
@@ -43,22 +47,21 @@ background-color: rgb(195, 195, 195);
 .slide-text,
 .footer-text{
     color:rgb(155, 242, 219);
-    margin:auto auto;
+    margin: auto auto;
 }
 
-@media (max-width: 755px){
-    .carousel-indicators {
-        display: none;
-    }
-}
+footer,
+.btn-outline-primary {
+	background: linear-gradient(270deg, #00009c 0%, #000000 100%);
 
+}
 .media-links{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.call-anim{
+.call-anim {
     animation: call 2s ease 0s infinite normal forwards;
 }
 
@@ -89,8 +92,8 @@ background-color: rgb(195, 195, 195);
 		transform: translateX(-6px) rotate(-1.2deg);
 	}
 }
-
-footer,
-.btn-outline-primary {
-    background: linear-gradient(270deg, #1904b4 0%, #151515 100%); 
-}
+	
+@media (max-width: 755px){
+    .carousel-indicators {
+        display: none;
+    }
